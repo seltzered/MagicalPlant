@@ -44,7 +44,12 @@ void setup()
   
   
   TCCR1A=0b10000010;        //-Set up frequency generator
+  
   TCCR1B=0b00011001;        //-+
+  
+  //set up fast pwm mode
+  //SET(TCCR1A, )
+
   ICR1=110;
   OCR1A=55;
 
@@ -69,7 +74,9 @@ void loop()
     TCNT1=0;                //-Reload new frequency
     ICR1=d;                 // |
     OCR1A=d/2;              //-+
-    SET(TCCR1B,0);          //-Restart generator
+    //SET(TCCR1B,0);          //-Restart generator
+  TCCR1B |=(1<<0);       //-Bit set/clear macros
+
 
     results[d]=results[d]*0.5+(float)(v)*0.5; //Filter results
    
@@ -78,6 +85,7 @@ void loop()
  //   plot(v,0);              //-Display
  //   plot(results[d],1);
   // delayMicroseconds(1);
+
   }
 
 
