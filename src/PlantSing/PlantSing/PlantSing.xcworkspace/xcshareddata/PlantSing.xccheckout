@@ -5,20 +5,24 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B28272AC-4532-4578-9C72-C4B6A88D6775</string>
+	<string>84797628-FB76-4E40-BBB3-3F8093F03FEE</string>
 	<key>IDESourceControlProjectName</key>
 	<string>PlantSing</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>81838E65-7AB4-4B5B-941B-23E25931B4F5</key>
 		<string>https://github.com/seltzered/MagicalPlant.git</string>
+		<key>D95306F2-5698-47ED-B408-38C26A4A219C</key>
+		<string>https://github.com/seltzered/MagicalPlant.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>src/PlantSing/PlantSing/PlantSing.xcodeproj/project.xcworkspace</string>
+	<string>src/PlantSing/PlantSing/PlantSing.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>81838E65-7AB4-4B5B-941B-23E25931B4F5</key>
-		<string>../../../../..</string>
+		<string>../../../..</string>
+		<key>D95306F2-5698-47ED-B408-38C26A4A219C</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/seltzered/MagicalPlant.git</string>
@@ -28,6 +32,14 @@
 	<string>81838E65-7AB4-4B5B-941B-23E25931B4F5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D95306F2-5698-47ED-B408-38C26A4A219C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PlantSing</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

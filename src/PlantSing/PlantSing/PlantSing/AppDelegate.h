@@ -7,8 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ORSSerialPort.h"
+#import "ORSSerialPortManager.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, ORSSerialPortDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 
