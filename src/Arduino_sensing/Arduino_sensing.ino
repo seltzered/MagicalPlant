@@ -65,7 +65,7 @@ void loop()
   {
     int v=analogRead(A0);    //-Read response signal
   
-    PWMWrite(PB_5, 255, 128, maxFrequency / d);
+    PWMWrite(PD_1, 255, 128, maxFrequency / d);
 
     results[d]=results[d]*0.5+(float)(v)*0.5; //Filter results
    
@@ -80,8 +80,11 @@ void loop()
   }
 
 
-//  PlottArray(1,freq,results); 
+  PlottArray(1,freq,results); 
  
+  
+ println("yo");
+  
   digitalWrite(PB_0, digitalRead(PB_0)^1 ); //toggle 
 //  TOG(PORTB,0);            //-Toggle pin 8 after each sweep (good for scope)
 }

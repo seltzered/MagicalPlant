@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D316481519724E9700D37BD4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D316481419724E9700D37BD4 /* Cocoa.framework */; };
+		D316481F19724E9700D37BD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D316481D19724E9700D37BD4 /* InfoPlist.strings */; };
+		D316482119724E9700D37BD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D316482019724E9700D37BD4 /* main.m */; };
+		D316482519724E9700D37BD4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D316482319724E9700D37BD4 /* Credits.rtf */; };
+		D316482819724E9700D37BD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D316482719724E9700D37BD4 /* AppDelegate.m */; };
+		D316482B19724E9700D37BD4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D316482919724E9700D37BD4 /* MainMenu.xib */; };
+		D316482D19724E9700D37BD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D316482C19724E9700D37BD4 /* Images.xcassets */; };
+		D316483419724E9700D37BD4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D316483319724E9700D37BD4 /* XCTest.framework */; };
+		D316483519724E9700D37BD4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D316481419724E9700D37BD4 /* Cocoa.framework */; };
+		D316483D19724E9700D37BD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D316483B19724E9700D37BD4 /* InfoPlist.strings */; };
+		D316483F19724E9700D37BD4 /* PlantSingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D316483E19724E9700D37BD4 /* PlantSingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D316483619724E9700D37BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D316480919724E9700D37BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D316481019724E9700D37BD4;
+			remoteInfo = PlantSing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D316481119724E9700D37BD4 /* PlantSing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantSing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D316481419724E9700D37BD4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D316481719724E9700D37BD4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D316481819724E9700D37BD4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D316481919724E9700D37BD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D316481C19724E9700D37BD4 /* PlantSing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlantSing-Info.plist"; sourceTree = "<group>"; };
+		D316481E19724E9700D37BD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D316482019724E9700D37BD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D316482219724E9700D37BD4 /* PlantSing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlantSing-Prefix.pch"; sourceTree = "<group>"; };
+		D316482419724E9700D37BD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D316482619724E9700D37BD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D316482719724E9700D37BD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D316482A19724E9700D37BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D316482C19724E9700D37BD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D316483219724E9700D37BD4 /* PlantSingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantSingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D316483319724E9700D37BD4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D316483A19724E9700D37BD4 /* PlantSingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlantSingTests-Info.plist"; sourceTree = "<group>"; };
+		D316483C19724E9700D37BD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D316483E19724E9700D37BD4 /* PlantSingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlantSingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D316480E19724E9700D37BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D316481519724E9700D37BD4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D316482F19724E9700D37BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D316483519724E9700D37BD4 /* Cocoa.framework in Frameworks */,
+				D316483419724E9700D37BD4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D316480819724E9700D37BD4 = {
+			isa = PBXGroup;
+			children = (
+				D316481A19724E9700D37BD4 /* PlantSing */,
+				D316483819724E9700D37BD4 /* PlantSingTests */,
+				D316481319724E9700D37BD4 /* Frameworks */,
+				D316481219724E9700D37BD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D316481219724E9700D37BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D316481119724E9700D37BD4 /* PlantSing.app */,
+				D316483219724E9700D37BD4 /* PlantSingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D316481319724E9700D37BD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D316481419724E9700D37BD4 /* Cocoa.framework */,
+				D316483319724E9700D37BD4 /* XCTest.framework */,
+				D316481619724E9700D37BD4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D316481619724E9700D37BD4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D316481719724E9700D37BD4 /* AppKit.framework */,
+				D316481819724E9700D37BD4 /* CoreData.framework */,
+				D316481919724E9700D37BD4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D316481A19724E9700D37BD4 /* PlantSing */ = {
+			isa = PBXGroup;
+			children = (
+				D316482619724E9700D37BD4 /* AppDelegate.h */,
+				D316482719724E9700D37BD4 /* AppDelegate.m */,
+				D316482919724E9700D37BD4 /* MainMenu.xib */,
+				D316482C19724E9700D37BD4 /* Images.xcassets */,
+				D316481B19724E9700D37BD4 /* Supporting Files */,
+			);
+			path = PlantSing;
+			sourceTree = "<group>";
+		};
+		D316481B19724E9700D37BD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D316481C19724E9700D37BD4 /* PlantSing-Info.plist */,
+				D316481D19724E9700D37BD4 /* InfoPlist.strings */,
+				D316482019724E9700D37BD4 /* main.m */,
+				D316482219724E9700D37BD4 /* PlantSing-Prefix.pch */,
+				D316482319724E9700D37BD4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D316483819724E9700D37BD4 /* PlantSingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D316483E19724E9700D37BD4 /* PlantSingTests.m */,
+				D316483919724E9700D37BD4 /* Supporting Files */,
+			);
+			path = PlantSingTests;
+			sourceTree = "<group>";
+		};
+		D316483919724E9700D37BD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D316483A19724E9700D37BD4 /* PlantSingTests-Info.plist */,
+				D316483B19724E9700D37BD4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D316481019724E9700D37BD4 /* PlantSing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D316484219724E9700D37BD4 /* Build configuration list for PBXNativeTarget "PlantSing" */;
+			buildPhases = (
+				D316480D19724E9700D37BD4 /* Sources */,
+				D316480E19724E9700D37BD4 /* Frameworks */,
+				D316480F19724E9700D37BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlantSing;
+			productName = PlantSing;
+			productReference = D316481119724E9700D37BD4 /* PlantSing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D316483119724E9700D37BD4 /* PlantSingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D316484519724E9700D37BD4 /* Build configuration list for PBXNativeTarget "PlantSingTests" */;
+			buildPhases = (
+				D316482E19724E9700D37BD4 /* Sources */,
+				D316482F19724E9700D37BD4 /* Frameworks */,
+				D316483019724E9700D37BD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D316483719724E9700D37BD4 /* PBXTargetDependency */,
+			);
+			name = PlantSingTests;
+			productName = PlantSingTests;
+			productReference = D316483219724E9700D37BD4 /* PlantSingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D316480919724E9700D37BD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vivek Gani";
+				TargetAttributes = {
+					D316483119724E9700D37BD4 = {
+						TestTargetID = D316481019724E9700D37BD4;
+					};
+				};
+			};
+			buildConfigurationList = D316480C19724E9700D37BD4 /* Build configuration list for PBXProject "PlantSing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D316480819724E9700D37BD4;
+			productRefGroup = D316481219724E9700D37BD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D316481019724E9700D37BD4 /* PlantSing */,
+				D316483119724E9700D37BD4 /* PlantSingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D316480F19724E9700D37BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D316481F19724E9700D37BD4 /* InfoPlist.strings in Resources */,
+				D316482D19724E9700D37BD4 /* Images.xcassets in Resources */,
+				D316482519724E9700D37BD4 /* Credits.rtf in Resources */,
+				D316482B19724E9700D37BD4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D316483019724E9700D37BD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D316483D19724E9700D37BD4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D316480D19724E9700D37BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D316482819724E9700D37BD4 /* AppDelegate.m in Sources */,
+				D316482119724E9700D37BD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D316482E19724E9700D37BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D316483F19724E9700D37BD4 /* PlantSingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D316483719724E9700D37BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D316481019724E9700D37BD4 /* PlantSing */;
+			targetProxy = D316483619724E9700D37BD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D316481D19724E9700D37BD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D316481E19724E9700D37BD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D316482319724E9700D37BD4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D316482419724E9700D37BD4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D316482919724E9700D37BD4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D316482A19724E9700D37BD4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D316483B19724E9700D37BD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D316483C19724E9700D37BD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D316484019724E9700D37BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D316484119724E9700D37BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D316484319724E9700D37BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlantSing/PlantSing-Prefix.pch";
+				INFOPLIST_FILE = "PlantSing/PlantSing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D316484419724E9700D37BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlantSing/PlantSing-Prefix.pch";
+				INFOPLIST_FILE = "PlantSing/PlantSing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D316484619724E9700D37BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlantSing.app/Contents/MacOS/PlantSing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlantSing/PlantSing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlantSingTests/PlantSingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D316484719724E9700D37BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlantSing.app/Contents/MacOS/PlantSing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlantSing/PlantSing-Prefix.pch";
+				INFOPLIST_FILE = "PlantSingTests/PlantSingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D316480C19724E9700D37BD4 /* Build configuration list for PBXProject "PlantSing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D316484019724E9700D37BD4 /* Debug */,
+				D316484119724E9700D37BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D316484219724E9700D37BD4 /* Build configuration list for PBXNativeTarget "PlantSing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D316484319724E9700D37BD4 /* Debug */,
+				D316484419724E9700D37BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D316484519724E9700D37BD4 /* Build configuration list for PBXNativeTarget "PlantSingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D316484619724E9700D37BD4 /* Debug */,
+				D316484719724E9700D37BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D316480919724E9700D37BD4 /* Project object */;
+}
