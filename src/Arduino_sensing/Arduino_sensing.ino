@@ -1,20 +1,24 @@
+#include <stdlib.h>
+#include <stdint.h>
+
+#include "driverlib/timer.h"
    
+#include "wiring_private.h" 
 
-
-   //****************************************************************************************
+//****************************************************************************************
 // Illutron take on Disney style capacitive touch sensor using only passives and Arduino
 // Dzl 2012
 //****************************************************************************************
 
 
 //                              10n
-// PIN 9 --[10k]-+-----10mH---+--||-- OBJECT
+// PORT B 5 --[10k]-+-----10mH---+--||-- OBJECT
 //               |            |
 //              3.3k          |
 //               |            V 1N4148 diode
 //              GND           |
 //                            |
-//Analog 0 ---+------+--------+
+//Analog 0 (PE3) ---+------+--------+
 //            |      |
 //          100pf   1MOmhm
 //            |      |
@@ -35,18 +39,13 @@ float results[N];            //-Filtered result buffer
 float freq[N];            //-Filtered result buffer
 int sizeOfArray = N;
 
- 
+ int maxFrequency = 7000000; //7 mhz
+    
    
    
 
 void setup()
 {
-  
-  
-  // TCCR1A=0b10000010;        //-Set up frequency generator
-  // TCCR1B=0b00011001;        //-+
-  // ICR1=110;
-  // OCR1A=55;
 
   // pinMode(9,OUTPUT);        //-Signal generator pin
   // pinMode(8,OUTPUT);        //-Sync (test) pin
@@ -62,18 +61,18 @@ void loop()
   unsigned int d;
 
   int counter = 0;
-  for(unsigned int d=0;d<N;d++)
+  for(unsigned int d=1;d<N;d++)
   {
-    int v=analogRead(0);    //-Read response signal
-    // CLR(TCCR1B,0);          //-Stop generator
-    // TCNT1=0;                //-Reload new frequency
-    // ICR1=d;                 // |
-    // OCR1A=d/2;              //-+
-    // SET(TCCR1B,0);          //-Restart generator
+    int v=analogRead(A0);    //-Read response signal
+  
+    PWMWrite(PB_5, 255, 128, maxFrequency / d);
 
     results[d]=results[d]*0.5+(float)(v)*0.5; //Filter results
    
-    freq[d] = d;
+    freq[d] = maxFrequency / d;//d;
+
+    digitalWrite(PB_1, digitalRead(PB_1)^1 ); //toggle 
+
 
  //   plot(v,0);              //-Display
  //   plot(results[d],1);
@@ -81,10 +80,10 @@ void loop()
   }
 
 
-PlottArray(1,freq,results); 
+//  PlottArray(1,freq,results); 
  
-
-  TOG(PORTB,0);            //-Toggle pin 8 after each sweep (good for scope)
+  digitalWrite(PB_0, digitalRead(PB_0)^1 ); //toggle 
+//  TOG(PORTB,0);            //-Toggle pin 8 after each sweep (good for scope)
 }
    
 
