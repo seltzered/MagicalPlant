@@ -1,10 +1,13 @@
 PODS:
   - ORSSerialPort (1.0.3)
+  - SoundManager (1.4.1)
 
 DEPENDENCIES:
   - ORSSerialPort (~> 1.0.3)
+  - SoundManager (~> 1.4.1)
 
 SPEC CHECKSUMS:
   ORSSerialPort: 5c13378f2604cefeb324581840f7de154bf443e4
+  SoundManager: 6b4f6bcc2b1eb036e94d54a4d7ca231cb1cf9d5f
 
 COCOAPODS: 0.33.1

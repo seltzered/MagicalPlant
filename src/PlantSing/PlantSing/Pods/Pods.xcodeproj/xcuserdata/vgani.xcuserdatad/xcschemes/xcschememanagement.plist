@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-PlantSing-SoundManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-PlantSing.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>33BA2AE012744D51A59FCDFD</key>
+		<key>2662E38B571D4178BBBF5D6F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5684F109CF934244A0BD72AD</key>
+		<key>2871A94954AF4EDB93CDA9CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4821B7B83D644E2B7A80EF9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

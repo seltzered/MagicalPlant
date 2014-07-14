@@ -10,8 +10,13 @@
 #import "ORSSerialPort.h"
 #import "ORSSerialPortManager.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate, ORSSerialPortDelegate>
+#import "SoundManager.h"
 
+@interface AppDelegate : NSObject <NSApplicationDelegate, ORSSerialPortDelegate>
+{
+    ORSSerialPort *serialPort;
+    bool loopPlaying;
+}
 @property (assign) IBOutlet NSWindow *window;
 
 @end

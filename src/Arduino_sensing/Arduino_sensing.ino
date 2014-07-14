@@ -83,7 +83,7 @@ void loop()
   PlottArray(1,freq,results); 
  
   
- println("yo");
+// println("yo");
   
   digitalWrite(PB_0, digitalRead(PB_0)^1 ); //toggle 
 //  TOG(PORTB,0);            //-Toggle pin 8 after each sweep (good for scope)

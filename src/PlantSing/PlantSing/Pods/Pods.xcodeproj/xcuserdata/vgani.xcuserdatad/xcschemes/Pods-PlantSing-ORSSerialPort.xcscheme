@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33BA2AE012744D51A59FCDFD"
+               BlueprintIdentifier = "2871A94954AF4EDB93CDA9CE"
                BuildableName = "libPods-PlantSing-ORSSerialPort.a"
                BlueprintName = "Pods-PlantSing-ORSSerialPort"
                ReferencedContainer = "container:Pods.xcodeproj">

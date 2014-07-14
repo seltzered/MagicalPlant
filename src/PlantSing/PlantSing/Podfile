@@ -3,6 +3,7 @@
 
 target "PlantSing" do
 pod 'ORSSerialPort', '~> 1.0.3'
+pod 'SoundManager', '~>1.4.1'
 
 end
 
